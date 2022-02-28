@@ -1,0 +1,24 @@
+{
+	"name": "esbuild-plugin-babel-flow",
+	"version": "0.0.1",
+	"description": "esbuild plugin for flow",
+	"main": "dist/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"esbuild",
+		"plugin",
+		"flow"
+	],
+	"author": "Henry Ansah",
+	"license": "ISC",
+	"dependencies": {
+		"@babel/core": "^7.17.5",
+		"@babel/preset-flow": "^7.16.7",
+		"esbuild": "^0.14.23"
+	},
+	"devDependencies": {
+		"@types/babel__core": "^7.1.18"
+	}
+}
