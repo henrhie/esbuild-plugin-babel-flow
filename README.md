@@ -18,7 +18,6 @@ npm install esbuild-plugin-babel-flow --save-dev
 
 ## Usage
 
-config file
 `esbuild.config.js`
 
 ```js
@@ -33,7 +32,6 @@ esbuild
 	.catch(() => process.exit(1));
 ```
 
-input file
 `example.flow.js`
 
 ```js
@@ -49,7 +47,6 @@ function foo(x: ?number): string {
 foo(55);
 ```
 
-bundled output
 `dist/example.flow.js`
 
 ```js
