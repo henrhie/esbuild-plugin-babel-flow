@@ -7,5 +7,7 @@ import * as esbuild from 'esbuild';
 		bundle: true,
 		outdir: 'dist',
 		platform: 'node',
+		minify: true,
+		treeShaking: true,
 	});
 })();

@@ -1,4 +1,3 @@
-import * as esbuild from 'esbuild';
 import babel from '@babel/core';
 import fs from 'fs/promises';
 
