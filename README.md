@@ -5,8 +5,8 @@ Esbuild plugin for transformation of code with [Flow](https://flow.org/) annotat
 <br>
 
 Esbuild plugins have limitations to allow developers to hook into every part of the bundling process. This is a deliberate attempt to prevent creating performance bottlenecks during bundling.
-Thankfully, Babel, a javascript code transformer allows use to transform code during the code loading event of the esbuild bundling process.
-esbuild-plugin-babel-flow under the hood uses babel's transform api to strip javascript code of flow annotations for safe execution in a javascript environment.
+Thankfully, Babel, a javascript code transformer allows you to transform code during the code loading event of the esbuild bundling process.
+esbuild-plugin-babel-flow under the hood uses babel's transform api and `@babel/preset-flow` to strip javascript code of flow annotations for safe execution in a javascript environment.
 
 ## Install
 
